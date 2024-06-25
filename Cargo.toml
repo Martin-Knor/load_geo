@@ -1,0 +1,9 @@
+[package]
+name = "load_geo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+geojson = "0.22.0"
+geo-types = "0.7.1"
+geo = "0.24.0"
