@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-geojson = "0.22.0"
+geojson = { version = "*", features = ["geo-types"] }
 geo-types = "0.7.1"
 geo = "0.24.0"
